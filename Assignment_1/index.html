@@ -6,10 +6,54 @@
     <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="../Assignment_1/style.css"/>
     <title>Into to Html,Css,Javascript</title>
+    <style>
+      header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  main {
+    padding: 32px;
+  }
+  
+  .intro-section, .skills-section, .contact-section {
+    margin-bottom: 32px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li::before {
+    content: "\2022"; /* Bullet point */
+    margin-right: 8px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer {
+    color: #f4f4f4;
+    text-align: center;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple Webpage</h1>
+        <h1>Welcome to My First Webpage</h1>
     </header>
     <main>
         <section class="intro-section">
@@ -19,12 +63,13 @@
     
         <section class="skills-section">
           <h2>Skills</h2>
-          <ul>
+          <ul style="background-color:cadetblue;">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>React</li>
           </ul>
+          <button class="btn btn-primary btn-sm" id="btn_id">Add Skill</button>
         </section>
     
         <section class="contact-section">
@@ -32,7 +77,11 @@
           <p>Feel free to reach out at <a href="mailto:john@example.com">john@example.com</a></p>
         </section>
       </main>
-  <script src="app.js"></script>
-  <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>   
+      <footer style="background-color: #333;">
+        <p>&copy; 2023 Your Company All Rights Reserved</p>
+      </footer>
+  
+      <script src="app.js"></script>
+
 </body>
 </html>
