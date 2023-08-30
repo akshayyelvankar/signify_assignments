@@ -1,0 +1,19 @@
+@media  screen and (max-width:770px) {
+    #mobile_nav{
+        display: none;
+     }
+     .mobile_menu{
+        display: block;
+     }
+     .user_porfile{
+        display: flex;
+        flex-direction: column;
+     }
+}
+
+@media screen and (max-width:575px){
+     .container p{
+        font-size: 12px;
+    }
+    
+}

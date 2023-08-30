@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assignment_3/style.css">
+    <link rel="stylesheet" href="../Assignment_3/media.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Responsive Design & Layout with flexbox and Media queries</title>
+</head>
+
+<body>
+    <header>
+        <h2>Portfolio</h2>
+        <ul class="portfolio_list" id="mobile_nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="mobile_menu">
+            <a href="#" class="btn" id="menu-toggle">
+                <span class="material-symbols-rounded text-light">
+                    menu
+                </span></a>
+        </div>
+    </header>
+    <main>
+        <div class="container shadow bg-body rounded">
+            <div class="blog1">
+                <div class="user_porfile">
+                    <img src="../Assignment_3/asset/s6.jpg" alt="" class="user_pro1" />
+                    <div>
+                        <p><b>Name</b>: Morgan Freeman</p>
+                        <p><b>Profile</b>: Front End Developer</p>
+                        <p><b>Email</b>: Morgan@gmail.com</p>
+                        <p><b>Phone</b>: (617) 557-0089</p>
+                    </div>
+                </div>
+                <div class="skill_section my-5">
+                    <h4>Skill</h4>
+                    <div>
+                        <span>Html 85%</span>
+                        <div class="progress mb-2" style="height: 10px;">
+                            <div class="progress-bar " role="progressbar" style="width: 85%;" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>Css 75%</span>
+                        <div class="progress mb-2" style="height: 10px;">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>Php 50%</span>
+                        <div class="progress mb-2" style="height: 10px;">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span>JavaScript 90%</span>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog2">
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem nesciunt nostrum mollitia
+                    esse modi eaque, voluptate, perferendis doloribus iste veniam beatae ad aperiam numquam non velit
+                    assumenda nobis quos!<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et necessitatibus blanditiis suscipit eos
+                    nostrum iste quidem, ratione fugit voluptatibus distinctio aliquid, est enim in cumque voluptate
+                    magni amet facere. Quos.</p>
+            </div>
+        </div>
+    </main>
+    <script src="../Assignment_3/app.js"></script>
+</body>
+
+</html>
